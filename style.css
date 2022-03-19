@@ -1,0 +1,37 @@
+h1{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    
+}
+body{
+background-color: aqua;
+}
+#menu ul {
+   list-style-type: none;
+    margin: 20;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+#menu ul li a {
+    float: left;
+    margin-left: 75px;
+    
+  }
+  
+  #menu  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    }
+ul li a {
+    display:block;
+   }
+   
+#menu ul li a:hover, #menu ul li a:focus {
+    color:blue;
+   }
+ul li a:hover, ul li a:focus {
+    color:red;
+   }
